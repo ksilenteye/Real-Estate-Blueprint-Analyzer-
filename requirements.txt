@@ -1,0 +1,24 @@
+# Core ML
+torch>=2.1.0
+torchvision>=0.16.0
+
+# SAM2 - install separately:
+# pip install git+https://github.com/facebookresearch/sam2.git
+
+# Diffusion
+diffusers>=0.30.0
+transformers>=4.40.0
+accelerate>=0.30.0
+safetensors>=0.4.0
+
+# Image processing
+opencv-python>=4.9.0
+Pillow>=10.2.0
+numpy>=1.26.0
+scikit-image>=0.22.0
+
+# UI
+gradio>=5.0.0
+
+# Utilities
+tqdm>=4.66.0
